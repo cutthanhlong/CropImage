@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#0A0A0A</color>
+    <color name="bg_app">#FFFFFF</color>
+    <color name="main">#52BAF1</color>
+    <color name="bl">#323232</color>
+    <color name="colorAccent">#52BAF1</color>
+    <color name="trans">#80FFFFFF</color>
+    <color name="sub">#989898</color>
+    <color name="gray2">#7A7A7A</color>
+    <color name="emptycolor">#AF9E9E</color>
+    <string-array name="colors">
+        <item name="black">#000000</item>
+        <item name="blue">#0000FF</item>
+        <item name="dodgerblue4">#104E8B</item>
+        <item name="darkcyan">#008B8B</item>
+        <item name="green">#00FF00</item>
+        <item name="yellow">#FFFF00</item>
+        <item name="indianred4">#8B3A3A</item>
+        <item name="chocolate">#FF7F24</item>
+        <item name="brown">#FF4040</item>
+        <item name="pink">#FF1493</item>
+        <item name="black">#000000</item>
+        <item name="blue">#0000FF</item>
+        <item name="dodgerblue4">#104E8B</item>
+        <item name="darkcyan">#008B8B</item>
+        <item name="green">#00FF00</item>
+        <item name="yellow">#FFFF00</item>
+        <item name="indianred4">#8B3A3A</item>
+        <item name="chocolate">#FF7F24</item>
+        <item name="brown">#FF4040</item>
+        <item name="pink">#FF1493</item>
+    </string-array>
+
+    <color name="black">#000000</color>
+    <color name="gray">#494848</color>
+    <color name="blue">#0000FF</color>
+    <color name="dodgerblue4">#104E8B</color>
+    <color name="darkcyan">#008B8B</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="brown">#FF4040</color>
+    <color name="accent">#4D90C8</color>
+    <color name="star">#F8D210</color>
+    <color name="star_un_select">#80FFFFFF</color>
+    <color name="color_exit">#69c45b</color>
+    <color name="color_cancel_exit">#ff4181</color>
+
+    <color name="colorPrimacy">#59A3F0</color>
+    <color name="tabs_un_select">#99FFFFFF</color>
+</resources>

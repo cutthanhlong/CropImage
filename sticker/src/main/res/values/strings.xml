@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sticker</string>
+    <string name="Start_typing_here">Start typing here...</string>
+    <string name="cancel">cancel</string>
+    <string name="choose_color">Choose color</string>
+    <string name="OK">OK</string>
+    <string name="InputText">Input Text</string>
+    <string name="EditText">Edit Text</string>
+    <string name="Object_is_locked">Object is locked</string>
+
+</resources>

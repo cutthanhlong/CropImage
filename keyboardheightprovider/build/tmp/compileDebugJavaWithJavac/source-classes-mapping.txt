@@ -1,0 +1,2 @@
+com/hold1/keyboardheightprovider/BuildConfig.java
+ com.hold1.keyboardheightprovider.BuildConfig

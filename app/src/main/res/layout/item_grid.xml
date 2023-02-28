@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:id="@+id/cardItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.textonphoto.addtext.editphoto.view.GallerySquareImageView
+                android:id="@id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vphome1" />
+
+            <RelativeLayout
+                android:id="@+id/grid_item_text_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_D1DBFF"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textView_path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_toStartOf="@+id/textViewCount"
+                    android:fontFamily="@font/urbanist_medium"
+                    android:singleLine="true"
+                    android:text="abcd"
+                    android:textColor="@color/color_001A43"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/urbanist_semibold"
+                    android:singleLine="true"
+                    android:text="abcd"
+                    android:textColor="@color/color_001A43"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textViewSelectedItemCount"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bg_border_btn"
+                android:fontFamily="@font/urbanist_medium"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="1"
+                android:textColor="@color/color_FEFBFF"
+                android:textSize="16sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

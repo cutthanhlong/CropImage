@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Text On Photo</string>
+
+
+    <!--Email, Privacy, Developer Acount-->
+    <string name="email_feedback">thuyet1989jp@gmail.com</string>
+    <!--File Provider-->
+    <!-- change file provider package name without remove ".provider" -->
+    <string name="file_provider">com.textonphoto.addtext.editphoto.provider</string>
+    <string-array name="array_sort_value">
+        <item>Name</item>
+        <item>Size</item>
+        <item>Date</item>
+    </string-array>
+    //text
+
+    <string name="error_img_not_found">Oops! please try again.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="tab_title_stores">Share</string>
+
+    <string name="preview_text">Preview Text</string>
+
+    <string name="canvas_text_hint">Write Text Here</string>
+    <string name="canvas_text_enter_text">Please enter text</string>
+    <string name="directory" translatable="false">/PhotoEditor/</string>
+    <string name="loading_image">Loading image</string>
+    <string name="effect_parameter_bundle_name">global_parameter</string>
+    <string name="gallery_select_an_album">Select Album</string>
+    <string name="gallery_no_more">No More item</string>
+    <string name="gallery_select_one">Select one</string>
+
+    <string name="sticker_choose_limit">You can not coose more than 12 stickers.</string>
+    <string name="sticker_items_selected">/12 items Selected</string>
+    <string name="sticker_items_selected_zero">0/12 item Selected</string>
+    <string name="share">Share</string>
+    <string name="moreapp">More App</string>
+
+    <string name="photo_collage">Photo Collage</string>
+    <string name="features">Features</string>
+    <string name="collage">Collage</string>
+    <string name="image">Image</string>
+    <string name="scrapbook">Scrapbook</string>
+    <string name="filter">Filter</string>
+    <string name="sticker">Sticker</string>
+    <string name="light_effect">Light Effect</string>
+    <string name="texture">Texture</string>
+    <string name="select_album">Select Album</string>
+    <string name="remove_all">Remove all (%d/%d)</string>
+    <string name="next">Next</string>
+    <string name="choose_1_9_images">Choose 1~9 images.</string>
+    <string name="quit_without_save">Quit without Save?</string>
+    <string name="all_your_un_saved_changes_can_not_be_recovered_do_you_want_to_quit">All your un-saved changes can not be recovered. Do you want to quit?</string>
+    <string name="quit">Quit</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="saving_image">Saving image...</string>
+    <string name="home">Home</string>
+    <string name="Thankyou">Thank you</string>
+    <string name="rate_us">Rate us</string>
+    <string name="not_now">Not now</string>
+    <string name="your_opinion_matter_to_us">Your Opinion \nMatter To Us!</string>
+    <string name="content_dialog">If you enjoy this Photo Collage Editor, would \nyou mind rating us on the Google Play, then?</string>
+    <string name="Send_Email">Send Email</string>
+    <string name="There_is_no">There is no email client installed.</string>
+    <string name="export">Export</string>
+    <string name="edit_collage">Edit Collage</string>
+    <string name="layout">Layout</string>
+    <string name="ratio">Ratio</string>
+    <string name="space">Space</string>
+    <string name="back">Back</string>
+    <string name="blur">Blur</string>
+    <string name="text">Text</string>
+    <string name="origin">Origin</string>
+    <string name="background_blur">Background Blur</string>
+    <string name="corner">Corner</string>
+    <string name="size">Size</string>
+    <string name="spacee">Space</string>
+    <string name="choose_color">Choose color</string>
+    <string name="rotate">Rotate</string>
+    <string name="swap">Swap</string>
+    <string name="delete">Delete</string>
+    <string name="fill">Fill</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="vertical">Vertical</string>
+    <string name="in">In</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="out">Out</string>
+    <string name="choose_a_grid_to_edit">Choose a grid to edit.</string>
+    <string name="do_you_want_to_delete_it">Do you want to delete it?</string>
+    <string name="you_can_t_delete_last_image">You can\'t delete last image!</string>
+    <string name="select_a_grid_to_edit">Select a grid to edit.</string>
+    <string name="choose_another_grid_to_swap">Choose another grid to swap.</string>
+    <string name="delete_">Delete?</string>
+    <string name="are_you_sure_to_delete_this_grid">Are you sure to delete this grid?</string>
+    <string name="reset">Reset</string>
+    <string name="effect">Effect</string>
+    <string name="frame">Frame</string>
+    <string name="light">Light</string>
+    <string name="image_blur">Image Blur</string>
+    <string name="txt_version">Version:</string>
+    <string name="txt_policy">Privacy Policy.</string>
+    <string name="about">About</string>
+    <string name="setting">Setting</string>
+    <string name="language">Language</string>
+    <string name="rate">Rate</string>
+    <string name="get_started">Get Started</string>
+    <string name="this_action_may_contain_advertising">This action may contain advertising</string>
+    <string name="skip">Skip</string>
+    <string name="title1">Collage</string>
+    <string name="content1">Turn your images into beautiful photo collage in seconds.</string>
+    <string name="title2">Texture</string>
+    <string name="title3">Photo Editor</string>
+    <string name="content2">Make your photo looks moody with various light effect and texture.</string>
+    <string name="content3">Perfect any photo using editable tools:  filter, crop, blur...</string>
+    <string name="confirm_exit">Confirm Exit?</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure you want to exit?</string>
+    <string name="stay">Stay</string>
+    <string name="gallery">Gallery</string>
+    <string name="new_photo">New photo</string>
+    <string name="permission">Permission!</string>
+    <string name="permission_des">Grant these permissions to use Photo collage editor</string>
+    <string name="permission_des1">Note: You can also give permissions in Settings —> apps —> Photo collage editor —> Permissions</string>
+    <string name="camera">Camera</string>
+    <string name="storage">Storage</string>
+    <string name="ok">Ok</string>
+    <string name="remove_all_">Remove All</string>
+    <string name="exporting_image">Exporting image...</string>
+    <string name="edit_photo">Edit photo</string>
+    <string name="add_text">Add text</string>
+    <string name="null_">Null</string>
+    <string name="couldnt_load_images">Couldn\'t load images!</string>
+    <string name="couldnt_load_the_photo">Could not load the photo, please use another GALLERY app!</string>
+
+    <string name="maxium_zoom">You reached maximum zoom!</string>
+    <string name="mixium_zoom">You reached minimum zoom!</string>
+    <string name="max_bottom">You reached max bottom!</string>
+    <string name="max_top">You reached max top!</string>
+    <string name="max_right">You reached max right!</string>
+    <string name="max_left">You reached max left!</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="background">Background</string>
+    <string name="mirror">Mirror</string>
+    <string name="created">Created</string>
+    <string name="no_creation_yet">No creation yet.</string>
+    <string name="my_creation">My creation</string>
+    <string name="are_you_sure_to_delete_this_image">Are you sure to delete this image?</string>
+    <string name="delete_sucessfully">Delete sucessfully</string>
+    <string name="sticker_item_selected">/12 item Selected</string>
+    <string name="Crop_Image">Crop Image</string>
+    <string name="edit_text">Edit Text</string>
+    <string name="Fonts">Fonts</string>
+    <string name="Color">Color</string>
+    <string name="Text_BG">Text BG</string>
+    <string name="Stroke">Stroke</string>
+    <string name="Spacing">Spacing</string>
+    <string name="TextAlign">Text Align</string>
+    <string name="Shadow">Shadow</string>
+    <string name="Gradients">Gradients</string>
+    <string name="Transform">Transform</string>
+    <string name="Simple">Simple</string>
+    <string name="Stylish">Stylish</string>
+    <string name="Decorative">Decorative</string>
+    <string name="Error">Error</string>
+
+
+</resources>

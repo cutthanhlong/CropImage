@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/collage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="collage" />
+
+    <Button
+        android:id="@+id/Gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gallery" />
+
+    <Button
+        android:id="@+id/btn_creation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="creation" />
+
+</LinearLayout>

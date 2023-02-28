@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.textonphoto.addtext.editphoto">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_logo_app"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/ic_logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TextOnPhoto"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon,android:theme">
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ShareImageScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MyCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SaveShareImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sticker.StickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CreateCollageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SelectAlbumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

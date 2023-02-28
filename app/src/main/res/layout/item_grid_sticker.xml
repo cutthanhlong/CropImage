@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/sticker_gllery_grid_item_layout_padding">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitCenter"
+        android:src="@color/color_45464F" />
+
+    <ImageView
+        android:id="@+id/image_view_item_selected"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_select_icon"
+        android:scaleType="fitCenter"
+        android:visibility="visible" />
+</RelativeLayout>

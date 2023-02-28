@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    tools:showIn="@layout/ucrop_controls"
+    android:layout_marginHorizontal="5sp"
+    tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/text_view_rotate"
+        style="@style/ucrop_TextViewWidgetText"
+        tools:text="100°" />
+    <RelativeLayout
+        android:layout_below="@+id/text_view_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.yalantis.ucrop.view.widget.HorizontalProgressWheelView
+            android:id="@+id/rotate_scroll_wheel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/wrapper_rotate_by_angle"
+            android:layout_toLeftOf="@+id/wrapper_rotate_by_angle"
+            android:layout_toEndOf="@+id/wrapper_reset_rotate"
+            android:layout_toRightOf="@+id/wrapper_reset_rotate" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wrapper_reset_rotate"
+
+
+           >
+
+            <ImageView
+
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ucrop_ic_reset"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/wrapper_rotate_by_angle"
+            >
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ucrop_rotate_90"
+               />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

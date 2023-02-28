@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641966119916",
+    "project_id": "textonphoto-aa75a",
+    "storage_bucket": "textonphoto-aa75a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641966119916:android:ff64655a8072ca6c8dbec9",
+        "android_client_info": {
+          "package_name": "com.textonphoto.addtext.editphoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641966119916-cemmv3q2ag4chevd4a5coltdacasu5th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsfVjCTFta_NJJYsWyzgGo8XB9C0prw-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641966119916-cemmv3q2ag4chevd4a5coltdacasu5th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="70dp"
+    android:layout_height="70dp">
+
+    <FrameLayout
+        android:id="@+id/fontItemLayout"
+        android:layout_width="100.0dip"
+        android:background="@drawable/bg_font"
+        android:layout_margin="5dp"
+        android:layout_height="100.0dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/tvFontNo"
+                android:layout_width="match_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#ff000000"
+                android:textSize="20.0sp" />
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/tvFontView"
+                android:layout_width="match_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#ff000000"
+                android:textSize="20.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivFontSelected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_font_selected" />
+    </FrameLayout>
+</RelativeLayout>
